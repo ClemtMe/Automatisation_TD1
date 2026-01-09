@@ -14,7 +14,7 @@ class ParamValidation
         Factory::setDefaultInstance(new Factory());
     }
 
-    public function validate($value, $rule, string $name = null): ParamValidation
+    public function validate($value, $rule, ?string $name = null): ParamValidation
     {
         $validationName = $name ?? $value;
 
