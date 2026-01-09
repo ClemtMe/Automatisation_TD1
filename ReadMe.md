@@ -20,8 +20,10 @@ Pour rendre le projet, j'attends un lien vers un dépôt git. Il faudra bien pr�
 
 ## Projets
 
-Lancer chaque projet à l'aide d'une commande :
+Lancer chaque projet à l'aide de la commande suivante dans les répertoires respectifs :
 
-docker-compose -f immo-api-php/docker-compose.yml up --build -d
-docker-compose -f immo-client-vue/docker-compose.yml up --build -d
-docker-compose -f immo-admin-react/docker-compose.yml up --build -d
+```bash
+docker-compose up -d --build
+```
+
+
