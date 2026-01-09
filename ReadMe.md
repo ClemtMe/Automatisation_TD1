@@ -16,3 +16,12 @@ Les deux projets front devraient être presque identiques !
 
 ## Troisième étape
 Pour rendre le projet, j'attends un lien vers un dépôt git. Il faudra bien préciser qui est dans le projet et que j'ai bien accès au dépôt.
+
+
+## Projets
+
+Lancer chaque projet à l'aide d'une commande :
+
+docker-compose -f immo-api-php/docker-compose.yml up --build -d
+docker-compose -f immo-client-vue/docker-compose.yml up --build -d
+docker-compose -f immo-admin-react/docker-compose.yml up --build -d
