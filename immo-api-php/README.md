@@ -1,8 +1,10 @@
 # Slim 4 API
 
 Simple API using Slim v4 MySQL 
+
 ## Run
 
 - Create `.env` from `.env.exemple`
 - Update environement variable
-- run `php -S localhost:<PORT> -t ./public`
+- run `php -S localhost:<PORT> -t ./public` in the php container
+- run `mariadb -u [user] -p [database] < /tmp/script.sql` in the db container to init the data
