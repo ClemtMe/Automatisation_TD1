@@ -24,3 +24,9 @@ immo-api-php/
 └── composer.json      # Dependencies
 ```
 
+## Usage
+- Access the API at `http://localhost:8080`
+- Use Adminer at `http://localhost:8081` to manage the database
+```
+
+
